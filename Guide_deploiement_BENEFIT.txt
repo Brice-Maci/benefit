@@ -1,0 +1,38 @@
+
+📘 GUIDE DE DÉPLOIEMENT - BENEFIT
+
+1. FRONTEND (React)
+-------------------
+- Aller dans le dossier `/client`
+- Exécuter : npm install
+- Puis : npm run build
+- Héberger le dossier `/build` sur Vercel, Netlify, etc.
+
+2. BACKEND (Node.js/Express)
+----------------------------
+- Aller dans le dossier `/server`
+- Créer un fichier `.env` (copier `.env.example`)
+- Remplir les infos :
+    - MONGO_URI=URI MongoDB Atlas
+    - JWT_SECRET=une phrase secrète
+- Exécuter : npm install
+- Puis : npm start (ou utiliser Render/Railway)
+
+3. BASE DE DONNÉES
+------------------
+- Utiliser https://www.mongodb.com/cloud/atlas
+- Créer un cluster gratuit (M0)
+- Ajouter l’IP `0.0.0.0/0` dans les autorisations
+- Créer un utilisateur DB et copier l’URI
+
+4. TESTS / PRÉPROD
+------------------
+- Créer des comptes donateur et bénéficiaire
+- Tester : dons, retraits, messagerie, exports, CRM
+
+5. SÉCURITÉ / LÉGAL
+--------------------
+- Ajouter dans le footer : Mentions légales, CGU, Contact
+- Penser à configurer le HTTPS sur ton domaine
+
+🎯 Bravo pour ton projet BENEFIT !
