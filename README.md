@@ -1,2 +1,3 @@
-# Backend BENEFIT
-Instructions de démarrage : `npm install && npm start`
+# Benefit
+
+Plateforme de financement participatif avec profils donateurs et bénéficiaires.
